@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.favfruit.MainActivity" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100" >
+
+    <TextView 
+        android:id="@+id/display"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:textColor="#fff" 
+        />
+  </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100" >
+
+    <CheckBox
+        android:id="@+id/armut"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"
+        android:text="armut" />
+    <CheckBox
+        android:id="@+id/muz"
+        android:layout_width="0dp"
+        android:textSize="23sp"
+        android:textColor="#f00"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="muz" />
+  </LinearLayout>  
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100" >
+
+    <CheckBox
+        android:id="@+id/kiraz"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"
+        android:text="kiraz" />
+    <CheckBox
+        android:id="@+id/visne"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:textColor="#f00"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="vişne" />
+  </LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100" >
+
+    <CheckBox
+        android:id="@+id/ananas"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"
+        android:text="ananas" />
+    <CheckBox
+        android:id="@+id/elma"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:textColor="#f00"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="elma" />
+  </LinearLayout>  
+
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100" >
+
+    <CheckBox
+        android:id="@+id/ayva"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"
+        android:text="ayva" />
+    <CheckBox
+        android:id="@+id/portakal"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:textColor="#f00"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="portakal" />
+  </LinearLayout>
+  	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100" >
+
+    <CheckBox
+        android:id="@+id/mandalina"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"
+        android:text="mandalina" />
+    <CheckBox
+        android:id="@+id/nar"
+        android:textSize="23sp"
+        android:layout_width="0dp"
+        android:textColor="#f00"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="nar" />
+  </LinearLayout>
+</LinearLayout>
